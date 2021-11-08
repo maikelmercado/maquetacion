@@ -1,0 +1,74 @@
+/*  cajas principales de maquetacion*/
+/*Formatiar valores*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*CABEZOTE*/
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px; /*ancho*/
+    height: 89px; /*alt*/
+    background:rgb(145, 143, 141)
+}
+
+/*NAV */
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background: rgb(238, 238, 238);
+
+}
+
+/*SLIDER*/
+#slide{
+   position: relative;
+   margin: auto; 
+   width: 1000px;
+   height: 301px;
+   background: steelblue;
+}
+
+/*BOTONERA*/
+#botoneraslide{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 26px;
+    background: rgb(85, 112, 136);
+
+}
+
+/*SECCION*/
+section{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 299px;
+    background: rgb(93, 180, 166);
+}
+
+/*BOTON*/
+#bottom{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 190px;
+    background: rgb(22, 22, 22);
+
+}
+
+/*FOOTER*/
+
+footer{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 62px;
+    background: rgb(27, 27, 27);    
+}

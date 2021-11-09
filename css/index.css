@@ -5,6 +5,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: sans-serif;
 }
 /*CABEZOTE*/
 header{
@@ -12,8 +13,9 @@ header{
     margin: auto;
     width: 1000px; /*ancho*/
     height: 89px; /*alt*/
-    background:rgb(145, 143, 141)
+   
 }
+
 
 /*NAV */
 nav{
@@ -21,8 +23,6 @@ nav{
     margin: auto;
     width: 1000px;
     height: 45px;
-    background: rgb(238, 238, 238);
-
 }
 
 /*SLIDER*/
@@ -31,7 +31,7 @@ nav{
    margin: auto; 
    width: 1000px;
    height: 301px;
-   background: steelblue;
+
 }
 
 /*BOTONERA*/
@@ -40,18 +40,131 @@ nav{
     margin: auto; 
     width: 1000px;
     height: 26px;
-    background: rgb(85, 112, 136);
-
+   
+}
+#botoneraslide ul{
+    position: relative; /*los margenes automaticos funcionan solo con posiciones ralativas*/
+    margin: auto;
+    width: 100px;
+    height: 26px;
+    
+}
+#botoneraslide ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius:100% ;
+    background: black;
+    border: 3px solid white;
+    margin: 3px 2px;
 }
 
-/*SECCION*/
+/*Seccion Inicio*/
 section{
     position: relative;
     margin: auto; 
     width: 1000px;
-    height: 299px;
-    background: rgb(93, 180, 166);
+    height: 600px;
+    
 }
+section ul li{
+    float: left;
+    width: 333px;
+    height: 299px;
+    
+}
+
+section ul li h1{
+    margin:20px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+section ul li p{
+    margin: 25px;
+    font-size: 15px;
+}
+section ul li img{
+    position: relative;
+    width: 200px;
+    height: 93px;
+    background: lightgray;
+    margin: 5px 60px;
+}
+section#quienessomos{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 600px;
+    
+     
+}
+section#quienessomos h1{
+    position: relative;
+    margin: 15px 27px;
+    width: 950px;
+    color: #000;
+    font-weight: 100;
+}
+section#quienessomos p{
+    position: relative;
+    top: 40px;
+    margin: auto;
+    color: black;
+    width: 950px;
+    text-align: justify;
+
+}
+section#quienessomos img{
+    float: left;
+    position: relative; /*posicion relativa se van a comodando a los nodos */
+    margin: auto;
+    width: 900px;
+    height: 400px;
+}
+/*Seccion servicios*/
+section#servicios{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 600px;
+     
+}
+section#servicios #cajaServicios{
+    position: relative;
+    width: 930px;
+    top: 50px;
+    height: 200px;
+    margin: auto;
+    background: lightcoral;
+    box-shadow: 0px 0px 30px #000; /*sobra para la caja*/
+
+}
+section#servicios #cajaServicios ul#lista{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 151px;
+    height: 220px;
+    background: blue;
+
+}
+
+section#servicios #cajaServicios ul#lista{
+    width: 151px;
+    height: 72px;
+    margin: 2px 0;
+}
+
+section#contacto{
+    position: relative;
+    margin: auto; 
+    width: 1000px;
+    height: 600px;
+     
+}
+
+
 
 /*BOTON*/
 #bottom{
@@ -59,16 +172,156 @@ section{
     margin: auto; 
     width: 1000px;
     height: 190px;
-    background: rgb(22, 22, 22);
+    
 
 }
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 190px;
+   
 
-/*FOOTER*/
+}
+#bottom ul li h1{
+    margin: 13px 18px;
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#bottom ul li ol{
+
+    position: relative;
+    top: 15px;
+    left: 5px;
+    width: 190px;
+    height:80px;
+    
+}
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: rgb(48, 47, 47);
+
+
+}
+#bottom ul li img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 95px;
+    height: 95px;
+    border: 4px solid white;
+    
+}
+#bottom ul li ul{
+    position: relative;
+    top: 11px;
+    left: 15px;
+    width: 200px;
+    height: 40px;
+
+}
+#bottom ul li ul li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(51, 50, 50);
+    margin: 5px;
+}
+
+/*Imagenes de logos redes sociales*/
+#bottom ul li ul li:first-child{
+    background:url(/img/f.png);
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(2){
+    background:url(/img/ins.png);
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(3){
+    background:url(/img/w.png);
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(4){
+    background:url(/img/tw.png);
+    background-size: cover;
+}
+#bottom ul li ul li a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+/*Footer*/
 
 footer{
     position: relative;
     margin: auto; 
     width: 1000px;
     height: 62px;
-    background: rgb(27, 27, 27);    
+    text-align: center;
+    color: rgb(252, 252, 252); 
+    line-height: 62px;
+    font-size: 15px;  
+    background: black;
+}
+
+/*logo*/
+#logo{
+    position: absolute;
+    top: 10px; /*posicion*/
+    left: 32px;
+    width: 130px;
+    height: 70px;
+}
+
+/*Barra de navegacion*/
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background: rgb(117, 168, 166);
+    border-bottom: 1px solid white; /*bode inferior del nav*/
+}
+
+nav ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 45px;
+    background: beige;
+}
+nav ul li{
+    float: left; /*flotante de izquierdda derecha*/
+    width: 124px; /* cada boton 125 pixeles */
+    line-height: 45px; /*a nivel vertical el texto centrado, misma altura de la barra de navegacion*/
+    text-align: center; /*texto a nivel horizontal alinear al centro*/
+    font-size:14px; /*tamaño de fuente*/
+    color:beige;/*color de fuente blanco*/
+    background: cadetblue;
+    border-right: 1px solid white;/*borde de 1px */
+}
+
+/*Slider*/
+#slider{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+    
+
+}
+#slide img{
+    position: relative;
+    margin:10px 190px;
+    width: 600px;
+    height: 300px;   
 }
